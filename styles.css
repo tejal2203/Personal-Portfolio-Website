@@ -329,6 +329,18 @@ span {
         display: block;
     }
 
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #004274;
+        overflow: hidden;
+        display: none;
+    }
+
     .navbar {
         position: absolute;
         top: 100%;
@@ -349,6 +361,8 @@ span {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        flex-direction: column;
+        text-align: right;
     }
 
     .home {
@@ -377,7 +391,7 @@ span {
     }
 
     .About-img img {
-        width: 90vw;
+        width: 70vw;
         margin-top: 4rem;
     }
 
@@ -388,12 +402,12 @@ span {
 
 @media (max-width: 617px) {
     .home-img img {
-        width: 80vw;
+        width: 70vw;
         margin-top: 8rem;
     }
 
     .About-img img {
-        width: 100vw;
+        width: 70vw;
         margin-top: 4rem;
     }
 }
